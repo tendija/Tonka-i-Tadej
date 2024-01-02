@@ -25,6 +25,7 @@ h4{
 }
 h1{
 	width: 100%;
+	display: flex;
 }
 input{
 	width: 100%;
