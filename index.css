@@ -24,6 +24,9 @@ h4{
 	font-size: 24px;
 	color: white;
 }
+h1{
+	width: 100%;
+}
 input{
 	width: 100%;
 	padding: 10px;
