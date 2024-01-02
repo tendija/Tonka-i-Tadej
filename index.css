@@ -7,12 +7,12 @@
 }
 body{
 	height: 100vh;
-	display: block;
 	align-items: center;
 	justify-content: center;
 }
 .container{
 	width: 500px;
+	display: block;
 	padding: 30px;
 	border: 1px solid #eeeeee;
 	border-radius: 10px;
