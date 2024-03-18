@@ -2,22 +2,33 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
-	font-family: 'poppins', sans-serif;
+	font-family: 'poppins', serif;
 	font-size: 18px;
 }
+
+img{margin-top: 100px;
+	width: 700px;
+}
+
+p{
+
+	text-align: center;
+	width: 700px;}
+
 body{
-	height: 100vh;
+	background-image: url(./pozadinatamnija.png);
+	background-size: 100%;
+	background-repeat: repeat-y;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	gap: 100px;
 	flex-direction: column;
 }
 .container{
 	width: 500px;
 	padding: 30px;
-	border: 1px solid #eeeeee;
 	border-radius: 10px;
-	background-color: #003b5b;
 }
 h4{
 	margin-bottom: 10px;
@@ -25,10 +36,9 @@ h4{
 	color: white;
 }
 h1{
-	margin-bottom: 30px;
-	font-size: 54px;
-	color: purple;
-	text-align: center;
+	font-size: 30px;
+	font-family: 'Rubik Beastly', serif;
+	font-weight: 1;
 }
 input{
 	width: 100%;
@@ -41,7 +51,7 @@ textarea{
 }
 #submit{
 	border: none;
-	background-color: orangered;
+	background-color: rgb(117, 96, 89);
 	color: white;
 	width: 200px;
 	margin-top: 10px;
