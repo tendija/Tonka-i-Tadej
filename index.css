@@ -11,19 +11,39 @@ img{margin-top: 100px;
 }
 
 p{
+text-align: center;
+	text-wrap: wrap;}
 
-	text-align: center;
-	width: 700px;}
+.lavanda{
+	background-image: url(./stabljika.png);
+	background-repeat: no-repeat;
+	height: 2900px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	max-width: 100vw;}
+
+.desne{
+	left: 50%;
+}
+
+.lijeve{
+	width: 40vw;
+	margin-top: 10%;
+	margin-left: -20%;
+}
 
 body{
 	background-image: url(./pozadinatamnija.png);
-	background-size: 100%;
+	background-size:contain;
 	background-repeat: repeat-y;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	gap: 100px;
 	flex-direction: column;
+	overflow-x: hidden;
+	min-width: 100vw;
 }
 .container{
 	width: 500px;
