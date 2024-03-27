@@ -2,11 +2,10 @@
 <html>
 <head>
 	<link rel="stylesheet" href="index.css">
-	<meta content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-	<img src="./kule.png">
-	
+	<img src="kule.png">
+
 	<h1> ANTONIA & TADEJ </h1> 
 	<p>Da ti dane svitlan, posipjen te cvićen, <br>
 		sve najlipše riči po tvon glasu štiman,<br>
@@ -14,46 +13,62 @@
 		o´ tvoje san vire i kad zabeštiman...<br>
 		<br><br>
 		J. Fiamengo</p>
-	<item class="lavanda">	
-		<item>
-			<p>Dragi naši, s radošću vas pozivamo na svoje vjenčanje!</p>
-			<p>22. 6. 2024.</p>
-		</item>
-		<item> 
-			<p>OKUPLJANJE KOD TONKE</p>
 
-			<p>U Sinju se okupljamo u 14 sati.</p>
-		</item>
-		<item> 
-			<p>VJENČANJE</p>
+	<item class="lavanda">
 
-			<p>Obred vjenčanja održat će se u Crkvi
-				
-				Čudotvorne Gospe Sinjske u 16 sati.</p>
-		</item>
-		<item> 
-			<p>PARTY</p>
-			<p>Slavlje nastavljamo na Ranču
-				Mustang s početkom u 17:30</p>
-		</item>
-		<item> 
-			<p>Ako ste nam nešto zaboravili reći:<br>
-				Tadej +385951986274<br>
-				Antonia +385989967712<br>
-				Veselimo se vašem dolasku!</p>
-		</item>
+			<item class= "desne">
+				<p>Dragi naši, s radošću vas pozivamo na svoje vjenčanje!</p>
+				<p>22. 6. 2024.</p>
+			</item>
+			
+			<item class= "lijeve"> 
+				<p>OKUPLJANJE KOD TADEJA</p>
+
+				<p>U Stonu se okupljamo u 10 sati.</p>
+			</item>
+			<item class= "lijeve"> 
+				<p>OKUPLJANJE KOD TONKE</p>
+
+				<p>U Sinju se okupljamo u 14 sati.</p>
+			</item>
+			<item class= "desne"> 
+				<p>VJENČANJE</p>
+
+				<p>Obred vjenčanja održat će se u Crkvi
+					
+					Čudotvorne Gospe Sinjske u 16 sati.</p>
+			</item>
+			<item class= "desne"> 
+				<p>PARTY</p>
+				<p>Slavlje nastavljamo na Ranču
+					Mustang s početkom u 17:30</p>
+			</item>
+			<form class="container" method="post" action="https://script.google.com/macros/s/AKfycbwuaEIenjQvhCdAOuIEHR_lsGsSyeb0iX3mmPv1Sfm8CT9eWbqEOXBtepJ2-9FLmS9k3g/exec" name="contact-form">
+				<div class="rows">
+					<span>Hej, ja sam,</span>
+					<input class="tekst" type="text" name="your-name" placeholder="Ime i prezime...">
+				</div>
+				<div class="rows">
+					<input class="button" type="button" name="da" value="Dolazim, fala bogu!">
+					<input class="button" type="button" name="ne" value="Nažalost ne dolazim.">
+				</div>
+				<div class="rows">
+					<span>Evo ti moj</span> 
+					<input class="tekst" type="text" name="your-number" placeholder="Broj Mobitela...">
+					<span>pa se javi ako je potreba...</span>
+				</div>
+				<textarea name="poruka" rows="4" placeholder="Dodatna poruka..."></textarea>
+				<input type="submit" value="Pošalji" id="submit">
+			</form>
+	</item>
+	<item> 
+		<p>Ako ste nam nešto zaboravili reći:<br>
+			Tadej +385951986274<br>
+			Antonia +385989967712<br>
+			Veselimo se vašem dolasku!</p>
 	</item>
 	
-	<div class="container">
-		<form method="post" action="https://script.google.com/macros/s/AKfycbwuaEIenjQvhCdAOuIEHR_lsGsSyeb0iX3mmPv1Sfm8CT9eWbqEOXBtepJ2-9FLmS9k3g/exec" name="contact-form">
-			<h4>Unesite svoje podatke</h4>
-			<input type="text" name="your-name" placeholder="Ime i prezime">
-			<input type="text" name="your-number" placeholder="Broj Mobitela">
-			<input type="email" name="your-email" placeholder="Email">
-			<textarea name="message" rows="7" placeholder="Dodatna poruka..."></textarea>
-			<input type="submit" value="Submit" id="submit">
-		</form>
-	</div>
+	
 
 	<script src="index.js"></script>
 </body>
