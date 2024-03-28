@@ -2,36 +2,80 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
-	font-family: 'poppins', serif;
-	font-size: 18px;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: xx-large;
 }
 
 img{margin-top: 100px;
-	width: 90%;
+	max-width: 1000px;
+	width: 80%;
 }
 
-p{
-text-align: center;
-text-wrap: wrap;
-font-size:xx-large;}
+.tekst{
+width: 70%;
+text-align: center;}
 
 .lavanda{
 	background-image: url(./stabljika.png);
 	background-repeat: no-repeat;
 	background-position: center;
+	position: relative;
 	height: 2900px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	width: 90%;}
+	width: 80%;}
 
-.desne{
-	margin-top: 10%;
-	margin-left: 35%;
+.prva{
+	position: absolute;
+	top: 4%;
+	right: 10%;
+	width: 40%;
+	text-align: center;
 }
 
-.lijeve{
-	margin-right: 35%;
+.druga{
+	position: absolute;
+	top: 25%;
+	left: 10%;
+	width: 40%;
+	text-align: right;
+	text-align: center;
+}
+
+.treca{
+	position: absolute;
+	top: 38%;
+	left: 10%;
+	width: 40%;
+	text-align: right;
+}
+.cetvrta{
+	position: absolute;
+	top: 55%;
+	right: 10%;
+	width: 40%;
+	text-align: center;
+}
+.peta{
+	position: absolute;
+	top: 66%;
+	right: 10%;
+	width: 40%;
+	text-align: center;
+}
+
+.zadnja{
+	padding-top: 15%;
+	width: 70%;
+	text-align: center;
+}
+
+.container{
+	width: 60%;
+	position: absolute;
+	display:flex;
+	top: 75%;
+	left: 10%;
+	flex-direction: column;
+	align-items:flex-start;
 }
 
 body{
@@ -45,27 +89,20 @@ body{
 	flex-direction: column;
 	overflow-x: hidden;
 	min-width: 100vw;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: xx-large;
 }
 
-h4{
-	margin-bottom: 10px;
-	font-size: 24px;
-	color: rgb(0, 0, 0);
-}
 h1{
-	font-size: 30px;
-	font-family: 'Rubik Beastly', serif;
-	font-weight: 1;
+	font-size: 50px;
+	font-weight:100;
+	padding-bottom: 10%;
+	white-space: nowrap;
+	font-stretch: extra-expanded;
 }
 
 
-.container{
-	width: 60%;
-	display:flex;
-	flex-direction: column;
-	align-items:flex-start;
-	color: rgb(119, 113, 108);
-}
+
 
 input, textarea, .button{
 	border-width: 0px 0cap 1px 0cap;
@@ -73,30 +110,38 @@ input, textarea, .button{
 	margin-bottom: 20px;
 	border-style:outset;
 	background-color: transparent;
-	border-color: rgb(201, 163, 110);
-	color: rgb(119, 113, 108);
+	border-color: rgb(192, 175, 158);
+	color: rgb(49, 42, 36);
 	border-radius: 10px;
+	font-size: xx-large;
 }
 
 .rows{
-	width: 100%;}
+	width: 100%;
+padding-bottom: 5%;}
 
 .button{
-	width: auto;
-	border-width:1px;
+	border-width: 3px;
 	border-style:outset;
 	display: inline;
 }
 
+.button:focus{
+	border-width: 3px;
+	border-style:inset;
+	display: inline;
+}
+
 textarea{
-	border-width: 0px;
+	border-width:1px;
 	width: 100%;
+	border-style:ridge;
 }
 
 #submit{
-	border: 1px;
+	border: 3px;
 	border-style:outset;
-	border-color: antiquewhite;
+	border-color: rgb(39, 30, 19);
 	background-color: transparent;
 	color: rgb(0, 0, 0);
 	width: 200px;
