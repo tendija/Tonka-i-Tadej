@@ -132,10 +132,6 @@ body{
 	font-size: xx-large;
 }
 
-
-
-
-
 input, textarea, .button{
 	border-width: 0px 0cap 1px 0cap;
 	padding: 10px;
@@ -180,6 +176,48 @@ textarea{
 	margin-top: 10px;
 	border-radius: 10px;
 }
+
 #submit:hover{
 	background-color: #333333;
+}
+
+
+.kartadruga{
+	position: absolute;
+	min-width: 0;
+	width: 40px;
+	height:40px;
+
+	top: 50%;
+	left: 110%;
+	text-align: right;
+	text-align: center;
+}
+
+.kartatreca{
+	min-width: 0;
+	width: 40px;
+	height:40px;
+	position: absolute;
+	top: 50%;
+	left: 110%;
+	text-align: center;
+}
+.kartacetvrta{
+	min-width: 0;
+	width: 40px;
+	height:40px;
+	position: absolute;
+	top: 50%;
+	right: 110%;
+	text-align: center;
+}
+.kartapeta{
+	min-width: 0;
+	width: 40px;
+	height:40px;
+	position: absolute;
+	top: 50%;
+	right: 110%;
+	text-align: center;
 }
