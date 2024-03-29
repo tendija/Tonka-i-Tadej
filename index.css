@@ -6,6 +6,11 @@
 	font-size: min(5vw, 35px);
 }
 
+.playbutton{
+	margin-bottom: 600px;
+	margin-top: 50vh;
+	width: 30vw;
+}
 
 img{
 	width:80%;
@@ -36,7 +41,7 @@ p{
 h1{
 	font-size: 50px;
 	font-weight:100;
-	padding-top: 20%;
+	padding-top: 0%;
 	white-space: nowrap;
 	font-stretch: extra-expanded;
 }

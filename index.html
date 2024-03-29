@@ -8,11 +8,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-	<audio id="player" src="Romanca.mp3" controls="true" loop="true" preload="auto" autoplay="true"></audio>
-	<div>
-		<button class="mutebutton" onclick="document.getElementById('player').muted=!document.getElementById('player').muted"></button>
-	</div>
-	<h1> ANTONIA & TADEJ </h1> 
+
+	<audio id="player" src="Romanca.mp3"  loop="true" preload="auto" autoplay="true"></audio>
+
+    <a class="start" href="#pocetak"><button class="playbutton" onclick="document.getElementById('player').play()">Otvori</button></a>
+
+    <button class="mutebutton" onclick="document.getElementById('player').muted=!document.getElementById('player').muted"></button>
+
+
+	<h1 id="pocetak"> ANTONIA & TADEJ </h1>
+
 	<img src="kule.png">
 
 	<p class="tekst">Da ti dane svitlan, posipjen te cvićen, <br>
