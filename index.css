@@ -151,7 +151,7 @@ input, textarea, label{
 	border-style:outset;
 	background-color: transparent;
 	border-color: rgb(192, 175, 158);
-	color: rgb(49, 42, 36);
+	color: rgb(17, 14, 11);
 	border-radius: 10px;
 	font-size: min(3.8vw, 30px);
 }
@@ -203,7 +203,7 @@ textarea{
 }
 
 #submit:hover{
-	background-color: #333333;
+	background-color: #948973;
 }
 
 
