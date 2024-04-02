@@ -10,6 +10,9 @@
 	margin-bottom: 600px;
 	margin-top: 50vh;
 	width: 30vw;
+	height: 5vh;
+	border-radius: 20%;
+	background-color: transparent;
 }
 
 img{
@@ -137,7 +140,7 @@ body{
 	font-size: xx-large;
 }
 
-input, textarea, .button{
+input, textarea, label{
 	border-width: 0px 0cap 1px 0cap;
 	padding: 10px;
 	margin-bottom: 20px;
@@ -149,21 +152,32 @@ input, textarea, .button{
 	font-size: min(3.8vw, 30px);
 }
 
-.rows{
-	width: 100%;
-padding-bottom: 5%;}
 
-.button{
+input[type="radio"]{
+	
+	display: none;
+}
+
+
+label{
 	border-width: 3px;
 	border-style:outset;
 	display: inline;
 }
 
-.button:focus{
+input[type="radio"]:checked + label{
 	border-width: 3px;
 	border-style:inset;
-	display: inline;
+	background-color:rgb(196, 187, 177);
 }
+
+
+.rows{
+	width: 100%;
+padding-bottom: 5%;}
+
+
+
 
 textarea{
 	border-width:1px;

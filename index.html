@@ -11,7 +11,7 @@
 
 	<audio id="player" src="Romanca.mp3"  loop="true" preload="auto" autoplay="true"></audio>
 
-    <a class="start" href="#pocetak"><button class="playbutton" onclick="document.getElementById('player').play()">Otvori</button></a>
+    <a href="#pocetak"><button class="playbutton" onclick="document.getElementById('player').play()">Otvori</button></a>
 
     <button class="mutebutton" onclick="document.getElementById('player').muted=!document.getElementById('player').muted"></button>
 
@@ -69,28 +69,35 @@
 					<input class="tekst" type="text" name="your-name" placeholder="Ime i prezime...">
 				</div>
 				<div class="rows">
-					<input class="button" type="button" name="dolazim" value="Dolazim">
-					<input class="button" type="button" name="nedolazim" value="Ne dolazim">
+					<input class="button" id="dolazim"  type="radio" name="dolazim" value="Da">
+					<label for="dolazim">Dolazim</label>
+					<input class="button" id="nedolazim"  type="radio" name="dolazim" value="Ne">
+					<label for="nedolazim">Ne dolazim</label>
 				</div>
 				<div class="rows">
-					<input class="button" type="button" name="ston" value="Dolazim u Ston">
-					<input class="button" type="button" name="Sinj" value="Dolazim u Sinj">
+					<input  id="Ston" type="radio" name="gdje" value="Ston">
+					<label for="Ston">Dolazim u Ston</label>
+					<input  id="Sinj"  type="radio" name="gdje" value="Sinj">
+					<label for="Sinj">Dolazim u Sinj</label>
 				</div>
 				<div class="rows">
-					<input class="button" type="button" name="ston" value="Potreban mi je smještaj">
-					<input class="button" type="button" name="sinj" value="Nije mi potreban smještaj">
+					<input class="button" id="Treba"  type="radio" name="Smjestaj" value="da">
+					<label for="Treba">Potreban mi je smještaj</label>
+					<input class="button" id="Netreba"  type="radio" name="Smjestaj" value="ne">
+					<label for="Netreba">Nije mi potreban smještaj</label>
 				</div>
 				<textarea name="poruka" rows="4" placeholder="Dodatna poruka..."></textarea>
 				<input type="submit" value="Pošalji" id="submit">
 			</form>
 	</item>
+
 	<p class="zadnja">Ako ste nam nešto zaboravili reći:<br><br>
 			Tadej +385951986274<br>
 			Antonia +385989967712<br><br><br>
 			Veselimo se vašem dolasku!</p>
 	
-	
 
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script src="index.js"></script>
 </body>
 </html>
