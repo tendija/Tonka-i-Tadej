@@ -45,19 +45,23 @@ h1{
 	font-size: 50px;
 	font-weight:100;
 	padding-top: 10%;
-	white-space: nowrap;
-	font-stretch: extra-expanded;
+	font-stretch:extra-expanded;
 }
 
 .datum{
 	font-size:min(7vw, 50px) ;
 }
 
+span{
+	font-size: min(6vw, 40px);
+	font-weight: 500;
+	;
+}
 
 .tekst{
 min-width: 500px;
 width: 70%;
-text-align: center;}
+text-align: left;}
 
 .lavanda{
 	background-image: url(./stabljika.png);
