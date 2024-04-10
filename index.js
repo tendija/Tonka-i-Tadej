@@ -8,7 +8,7 @@ form.addEventListener('submit', e => {
   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
   .then(response => alert("Odgovorili ste na pozivnicu. Hvala!" ))
   .catch(error => console.error('Error!', error.message))
-  button.disabled = true;
+  button.disabled = true
 })
 
 $(function() {
